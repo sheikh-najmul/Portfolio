@@ -1,0 +1,1083 @@
+/*===============================
+light_bg color start
+================================*/
+.light_bg h2{
+    color: #fa5c5d;
+}
+.light_bg h2:after{
+    background: #fa5c5d;
+}
+.light_bg .floating-text span{
+    -webkit-text-stroke: 1px rgba(196, 196, 196, 0.5);
+}
+.light_bg .digit{
+    color: #9b9a9c;
+}
+/*------------------------------
+scroll to top button start
+-------------------------------*/
+.light_bg .top_to{
+    background: #fa5c5d;
+}
+/*------------------------------
+navbar toggle icon start
+-------------------------------*/
+.light_bg header #menubar .navbar .navbar-toggler {
+    background: linear-gradient(120deg, #fa5c5d 20%, #666 100%);
+    border: 1px solid #fa5c5d;
+    border-radius: 0;
+    margin: 5px 0;
+}
+.light_bg header #menubar .navbar .navbar-nav .nav-item .nav-link.active {
+    color: #fa5c5d;
+}
+/*------------------------------
+menubar part start
+-------------------------------*/
+.light_bg header #menubar{
+    background: #f8f8f8;
+}
+.light_bg header #menubar .navbar .navbar-nav .nav-item .nav-link{
+    color: #2c2a2f;
+}
+.light_bg header #menubar .navbar .navbar-brand{
+    color: #2c2a2f;
+}
+.light_bg header #menubar .navbar .navbar-brand span{
+    color: #fa5c5d;
+}
+.light_bg header #menubar .navbar .navbar-nav .nav-item .nav-link.active{
+    color: #fa5c5d;
+}
+.light_bg header #menubar .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #fa5c5d;
+}
+.light_bg header #menubar .navbar .navbar-nav .nav-item .nav-link:after{
+    border-bottom: 3px dotted #fa5c5d;
+}
+.light_bg header #menubar .navbar .navbar-nav .nav-item .nav-link.active:after{
+    color: #fa5c5d;
+}
+/*------------------------------
+banner part start
+-------------------------------*/
+.light_bg header #banner .banner_overlay .shape svg{
+    fill: #f8f8f8;
+}
+.light_bg header #banner .banner_overlay ul.tlt span{
+    color: #fa5c5d;
+}
+.light_bg header #banner .banner_overlay h1 span{
+    color: transparent;
+    background: linear-gradient(to right, #fff, #fa5c5d);
+    -webkit-background-clip: text;
+    animation: name 10s linear infinite;
+    background-size: 1000%;
+}
+@keyframes name{
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+.light_bg header #banner .banner_overlay ul li a{
+    background: #fa5c5d;
+    border: 1px solid #fa5c5d;
+}
+.light_bg header #banner .banner_overlay ul li a:hover{
+    color: #fa5c5d;
+    background: none;
+}
+/*------------------------------
+about part start
+-------------------------------*/
+.light_bg #about{
+    background: #f8f8f8;
+}
+.light_bg #about .holder{
+    background: #fff;
+}
+.light_bg #about .shape svg{
+    fill: #fff;
+}
+.light_bg #about .about_image{
+    filter: drop-shadow(0 0 5px #bfbfbf);
+}
+.light_bg #about .about_image:before{
+    background: #fa5c5d;
+}
+.light_bg #about .about_image:after{
+    border-left: 3px solid rgba(250, 92, 93, 0.75);
+    border-bottom: 3px solid rgba(250, 92, 93, 0.75);
+}
+.light_bg #about h3{
+    color: #2c2a2f;
+}
+.light_bg #about h3:after{
+    background: #fa5c5d;
+}
+.light_bg #about .personal{
+    background: #fff;
+}
+.light_bg #about .personal p{
+    color: #fa5c5d;
+}
+.light_bg #about .personal p:after{
+    background: #fa5c5d;
+}
+.light_bg #about a{
+    background: #fa5c5d;
+    border: 1px solid #fa5c5d;
+}
+.light_bg #about a:hover{
+    color: #fa5c5d;
+    background: none;
+}
+/*------------------------------
+skill part start
+-------------------------------*/
+.light_bg #skill{
+    background: #fff;
+}
+.light_bg #skill .shape svg{
+    fill: #f8f8f8;
+}
+.light_bg #skill .holder{
+    background: #f8f8f8;
+}
+.light_bg #skill .skill_content{
+    background: #f8f8f8;
+}
+.light_bg .pro-bar{
+    background: #fa5c5d;
+}
+.light_bg #skill .skill_content .items .text p{
+    color: #fa5c5d;
+}
+.light_bg .light_bg #skill h3{
+    color: #fa5c5d;
+}
+.light_bg #skill h4{
+    color: #9b9a9c;
+}
+/*------------------------------
+service part start
+-------------------------------*/
+.light_bg #service{
+    background: #f8f8f8;
+}
+.light_bg #service .shape svg{
+    fill: #fff;
+}
+.light_bg #service .holder{
+    background: #fff;
+}
+.light_bg #service .service_item{
+    background: #fff;
+}
+.light_bg #service .service_item:before{
+    border-right: 15px solid #fa5c5d;
+    border-bottom: 15px solid #fa5c5d;
+}
+.light_bg #service .service_item i{
+    color: #2c2a2f;
+    border: 2px dotted #fa5c5d;
+}
+.light_bg #service .service_item:hover i{
+    color: #fa5c5d;
+}
+.light_bg #service .service_item h3{
+    color: #2c2a2f;
+}
+.light_bg #service .service_item h3:before{
+    border-top: 2px dotted #fa5c5d;
+}
+.light_bg #service .service_item h3:after{
+    background: #fa5c5d;
+}
+/*------------------------------
+portfolio part start
+-------------------------------*/
+.light_bg #portfolio{
+    background: #fff;
+}
+.light_bg #portfolio .shape svg{
+    fill: #f8f8f8;
+}
+.light_bg #portfolio .holder{
+    background: #f8f8f8;
+}
+.light_bg #portfolio .menu ul li{
+    color: #2c2a2f;
+}
+.light_bg #portfolio .menu ul li:hover{
+    color: #fa5c5d;
+}
+.light_bg #portfolio .menu ul li.active{
+    color: #fa5c5d;
+}
+.light_bg #portfolio .items .item_overlay{
+    background: rgba(250, 92, 93, 0.6);
+}
+.light_bg #portfolio .items .item_overlay .icon i{
+    color: #fa5c5d;
+}
+.light_bg #portfolio .items .item_overlay .text h4{
+    color: #fa5c5d;
+}
+.light_bg #portfolio .load a{
+    background: #fa5c5d;
+    border: 1px solid #fa5c5d;
+}
+.light_bg #portfolio .load a:hover{
+    background: none;
+    color: #fa5c5d;
+}
+/*------------------------------
+resume part start
+-------------------------------*/
+.light_bg #resume{
+    background: #f8f8f8;
+}
+.light_bg #resume .shape svg{
+    fill: #fff;
+}
+.light_bg #resume .holder{
+    background: #fff;
+}
+.light_bg #resume .resume_main .content{
+    background: #fff;
+}
+.light_bg #resume .resume_main .content:before{
+    background: #fa5c5d;
+    border: 5px solid #bfbfbf;
+}
+.light_bg #resume .resume_main .date{
+   background: #fa5c5d;
+    color: #fff;
+}
+.light_bg #resume .resume_main .date:after{
+    background: #fa5c5d;
+}
+.light_bg #resume .resume_main h3{
+    color: #fa5c5d;
+}
+.light_bg #resume .resume_main .resume_slider:after{
+    background: #bfbfbf;
+}
+.light_bg #resume .upbtn{
+    color: #fa5c5d;
+    border: 1px solid #fa5c5d;
+}
+.light_bg #resume .downbtn{
+    color: #fa5c5d;
+    border: 1px solid #fa5c5d;
+}
+.light_bg #resume .upbtn:hover,
+.light_bg #resume .downbtn:hover{
+    background: #fa5c5d;
+    color: #fff;
+}
+/*------------------------------
+fun part start
+-------------------------------*/
+.light_bg #fun{
+    background: #fff;
+}
+.light_bg #fun .shape svg{
+    fill: #f8f8f8;
+}
+.light_bg #fun .holder{
+    background: #f8f8f8;
+}
+.light_bg #fun .fun_item{
+    background: #f8f8f8;
+    border: 3px solid #f8f8f8;
+}
+.light_bg #fun .fun_item h3{
+    color: #2c2a2f;
+}
+.light_bg #fun .fun_item p{
+    color: #fa5c5d;
+    background: #fff;
+}
+/*------------------------------
+testimonial part start
+-------------------------------*/
+.light_bg #testimonial{
+    background: #f8f8f8;
+}
+.light_bg #testimonial .shape svg{
+    fill: #fff;
+}
+.light_bg #testimonial .holder{
+    background: #fff;
+}
+.light_bg #testimonial .testimonial_slide .client{
+    background: #fff;
+}
+.light_bg #testimonial .testimonial_slide .client .client_img img{
+    border: 3px dotted #fa5c5d;
+}
+.light_bg #testimonial .testimonial_slide .client .client_name h4{
+    color: #2c2a2f;
+}
+.light_bg #testimonial .testimonial_slide .client .client_name span{
+    color: #fa5c5d;
+}
+.light_bg #testimonial .testimonial_slide .slick-dots li button{
+    background: #fa5c5d;
+}
+/*------------------------------
+blog part start
+-------------------------------*/
+.light_bg #blog{
+    background: #fff;
+}
+.light_bg #blog .shape svg{
+    fill: #f8f8f8;
+}
+.light_bg #blog .holder{
+    background: #f8f8f8;
+}
+.light_bg #blog .post .blog_img span{
+    color: #fa5c5d;
+    background: #f8f8f8;
+}
+.light_bg #blog .post .blog_detail{
+    background: #f8f8f8;
+}
+.light_bg #blog .post .blog_detail h3{
+    color: #2c2a2f;
+}
+.light_bg #blog .post .blog_detail h3:hover{
+    color: #fa5c5d;
+}
+.light_bg #blog .post .blog_detail a{
+    color: #2c2a2f;
+}
+.light_bg #blog .post .blog_detail a:hover{
+    color: #fa5c5d;
+}
+/*------------------------------
+contact part start
+-------------------------------*/
+.light_bg #contact{
+    background: #f8f8f8;
+}
+.light_bg #contact .shape svg{
+    fill: #fff;
+}
+.light_bg #contact .holder{
+    background: #fff;
+}
+.light_bg #contact .contact_box{
+    background: #fff;
+}
+.light_bg #contact .contact_box i{
+    color: #fa5c5d;
+    background: #f8f8f8;
+    border: 1px solid #9b9a9c;
+}
+.light_bg #contact .contact_box .number_box{
+    background: #bfbfbf;
+    border: 3px dotted #9b9a9c;
+}
+.light_bg #contact .contact_box .number_box span{
+    color: #9b9a9c;
+}
+.light_bg #contact .text_box .input_field{
+    color: #2c2a2f;
+    border: 1px solid #9b9a9c;
+}
+.light_bg #contact .text_box .send_btn{
+    background: #fa5c5d;
+    border: 1px solid #fa5c5d;
+}
+.light_bg #contact .text_box .send_btn:hover{
+    background: none;
+    color: #fa5c5d;
+}
+/*------------------------------
+footer part start
+-------------------------------*/
+.light_bg footer{
+    background: #fff;
+}
+.light_bg footer a.brand{
+    color: #2c2a2f;
+}
+.light_bg footer a.brand span{
+    color: #fa5c5d;
+}
+.light_bg footer ul li a{
+    color: #2c2a2f;
+}
+.light_bg footer p{
+    color: #2c2a2f;
+}
+.light_bg footer p a{
+    color: #fa5c5d;
+}
+.light_bg footer p a:hover{
+    color: #fa5c5d;
+}
+/*===============================
+selenium_bg color start
+================================*/
+.selenium_bg h2{
+    color: #f5865d;
+}
+.selenium_bg .floating-text span{
+    -webkit-text-stroke: 1px rgba(196, 196, 196, 0.2);
+}
+.selenium_bg .digit{
+    color: #9b9a9c;
+}
+/*------------------------------
+scroll to top button start
+-------------------------------*/
+.selenium_bg .top_to{
+    background: #f5865d;
+}
+/*------------------------------
+navbar toggle icon start
+-------------------------------*/
+.selenium_bg header #menubar .navbar .navbar-toggler {
+    background: linear-gradient(120deg, #605C3C 20%, #666 100%);
+    border: 1px solid #fff;
+    border-radius: 0;
+    margin: 5px 0;
+}
+/*------------------------------
+menubar part start
+-------------------------------*/
+.selenium_bg header #menubar{
+/*    background: linear-gradient(to right, #3C3B3F, #605C3C);*/
+    background: linear-gradient(to right, #3C3B3F, #3c5d60);
+}
+.selenium_bg header #menubar .navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.selenium_bg header #menubar .navbar .navbar-brand{
+    color: #fff;
+}
+.selenium_bg header #menubar .navbar .navbar-brand span{
+    color: #f5865d;
+}
+.selenium_bg header #menubar .navbar .navbar-nav .nav-item .nav-link.active{
+    color: #f5865d;
+}
+.selenium_bg header #menubar .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #f5865d;
+}
+.selenium_bg header #menubar .navbar .navbar-nav .nav-item .nav-link:after{
+    border-bottom: 3px dotted #f5865d;
+}
+/*------------------------------
+banner part start
+-------------------------------*/
+.selenium_bg header #banner .banner_overlay .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg header #banner .banner_overlay ul.tlt span{
+    color: #f5865d;
+}
+.selenium_bg header #banner .banner_overlay h1 span{
+    color: transparent;
+    background: linear-gradient(to right, #fff, #f5865d);
+    -webkit-background-clip: text;
+    animation: name 10s linear infinite;
+    background-size: 1000%;
+}
+@keyframes name{
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+.selenium_bg header #banner .banner_overlay ul li a{
+    background: #f5865d;
+    border: 1px solid #f5865d;
+}
+.selenium_bg header #banner .banner_overlay ul li a:hover{
+    color: #f5865d;
+    background: none;
+}
+/*------------------------------
+about part start
+-------------------------------*/
+.selenium_bg #about{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #about .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #about .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #about .about_image:before{
+    background: #f5865d;
+}
+.selenium_bg #about .about_image:after{
+    border-left: 3px solid rgba(245, 134, 93, .75);
+    border-bottom: 3px solid rgba(245, 134, 93, .75);
+}
+.selenium_bg #about h3{
+    color: #fff;
+}
+.selenium_bg #about h3:after{
+    background: #f5865d;
+}
+.selenium_bg #about .personal{
+    background: #3C3B3F;
+}
+.selenium_bg #about .personal p{
+    color: #f5865d;
+}
+.selenium_bg #about .personal p:after{
+    background: #f5865d;
+}
+.selenium_bg #about a{
+    background: #f5865d;
+    border: 1px solid #f5865d;
+}
+.selenium_bg #about a:hover{
+    color: #f5865d;
+    background: none;
+}
+/*------------------------------
+skill part start
+-------------------------------*/
+.selenium_bg #skill{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #skill .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #skill .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #skill .skill_content{
+    background: #3C3B3F;
+}
+/*------------------------------
+service part start
+-------------------------------*/
+.selenium_bg #service{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #service .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #service .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #service .service_item{
+    background: #3C3B3F;
+}
+/*------------------------------
+portfolio part start
+-------------------------------*/
+.selenium_bg #portfolio{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #portfolio .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #portfolio .holder{
+    background: #3C3B3F;
+}
+/*------------------------------
+resume part start
+-------------------------------*/
+.selenium_bg #resume{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #resume .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #resume .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #resume .resume_main .content{
+    background: #3C3B3F;
+}
+.selenium_bg #resume .resume_main .resume_slider:after{
+    background: #3C3B3F;
+}
+/*------------------------------
+fun part start
+-------------------------------*/
+.selenium_bg #fun{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #fun .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #fun .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #fun .fun_item{
+    background: #3C3B3F;
+    border: 3px solid #3C3B3F;
+}
+.selenium_bg #fun .fun_item p{
+    background: #3c5d60;
+}
+/*------------------------------
+testimonial part start
+-------------------------------*/
+.selenium_bg #testimonial{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #testimonial .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #testimonial .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #testimonial .testimonial_slide .client{
+    background: #3C3B3F;
+}
+/*------------------------------
+blog part start
+-------------------------------*/
+.selenium_bg #blog{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #blog .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #blog .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #blog .post .blog_img span{
+    background: #3C3B3F;
+}
+.selenium_bg #blog .post .blog_detail{
+    background: #3C3B3F;
+}
+/*------------------------------
+contact part start
+-------------------------------*/
+.selenium_bg #contact{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+.selenium_bg #contact .shape svg{
+    fill: #3C3B3F;
+}
+.selenium_bg #contact .holder{
+    background: #3C3B3F;
+}
+.selenium_bg #contact .contact_box{
+    background: #3C3B3F;
+}
+.selenium_bg #contact .contact_box i{
+    background: #3c5d60;
+}
+/*------------------------------
+footer part start
+-------------------------------*/
+.selenium_bg footer{
+    background: linear-gradient(to bottom, #3C3B3F, #3c5d60);
+}
+/*===============================
+dark_bg color start
+================================*/
+.dark_bg h2{
+    color: #738dfa;
+}
+.dark_bg .floating-text span{
+    -webkit-text-stroke: 1px rgba(196, 196, 196, 0.2);
+}
+.dark_bg .digit{
+    color: #9b9a9c;
+}
+/*------------------------------
+scroll to top button start
+-------------------------------*/
+.dark_bg .top_to{
+    background: #738dfa;
+}
+/*------------------------------
+navbar toggle icon start
+-------------------------------*/
+.dark_bg header #menubar .navbar .navbar-toggler {
+    background: linear-gradient(120deg, #000 20%, #666 100%);
+    border: 1px solid #fff;
+    border-radius: 0;
+    margin: 5px 0;
+}
+.dark_bg header #menubar .navbar .navbar-nav .nav-item .nav-link.active {
+    color: #738dfa;
+}
+/*------------------------------
+menubar part start
+-------------------------------*/
+.dark_bg header #menubar{
+    background: #131313;
+}
+.dark_bg header #menubar .navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.dark_bg header #menubar .navbar .navbar-brand{
+    color: #fff;
+}
+.dark_bg header #menubar .navbar .navbar-brand span{
+    color: #738dfa;
+}
+.dark_bg header #menubar .navbar .navbar-nav .nav-item .nav-link.active{
+    color: #738dfa;
+}
+.dark_bg header #menubar .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #738dfa;
+}
+.dark_bg header #menubar .navbar .navbar-nav .nav-item .nav-link:after{
+    border-bottom: 3px dotted #738dfa;
+}
+/*------------------------------
+banner part start
+-------------------------------*/
+.dark_bg header #banner .banner_overlay .shape svg{
+    fill: #181818;
+}
+.dark_bg header #banner .banner_overlay ul.tlt span{
+    color: #738dfa;
+}
+.dark_bg header #banner .banner_overlay h1 span{
+    color: transparent;
+    background: linear-gradient(to right, #fff, #738dfa);
+    -webkit-background-clip: text;
+    animation: name 10s linear infinite;
+    background-size: 1000%;
+}
+@keyframes name{
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+.dark_bg header #banner .banner_overlay ul li a{
+    background: #738dfa;
+    border: 1px solid #738dfa;
+}
+.dark_bg header #banner .banner_overlay ul li a:hover{
+    color: #738dfa;
+    background: none;
+}
+/*------------------------------
+about part start
+-------------------------------*/
+.dark_bg #about{
+    background: #181818;
+}
+.dark_bg #about .holder{
+    background: #131313;
+}
+.dark_bg #about .shape svg{
+    fill: #131313;
+}
+.dark_bg #about .about_image:before{
+    background: #738dfa;
+}
+.dark_bg #about .about_image:after{
+    border-left: 3px solid rgba(115, 141, 250, 0.75);
+    border-bottom: 3px solid rgba(115, 141, 250, 0.75);
+}
+.dark_bg #about h3{
+    color: #fff;
+}
+.dark_bg #about h3:after{
+    background: #738dfa;
+}
+.dark_bg #about .personal{
+    background: #131313;
+}
+.dark_bg #about .personal p{
+    color: #738dfa;
+}
+.dark_bg #about .personal p:after{
+    background: #738dfa;
+}
+.dark_bg #about a{
+    background: #738dfa;
+    border: 1px solid #738dfa;
+}
+.dark_bg #about a:hover{
+    color: #738dfa;
+    background: none;
+}
+/*------------------------------
+skill part start
+-------------------------------*/
+.dark_bg #skill{
+    background: #131313;
+}
+.dark_bg #skill .shape svg{
+    fill: #181818;
+}
+.dark_bg #skill .holder{
+    background: #181818;
+}
+.dark_bg .pro-bar{
+    background: #738dfa;
+}
+.dark_bg #skill .skill_content .items .text p{
+    color: #738dfa;
+}
+.dark_bg #skill .skill_content{
+    background: #181818;
+}
+.dark_bg #skill .skill_content .items .text p{
+    color: #738dfa;
+}
+/*------------------------------
+service part start
+-------------------------------*/
+.dark_bg #service{
+    background: #181818;
+}
+.dark_bg #service .shape svg{
+    fill: #131313;
+}
+.dark_bg #service .holder{
+    background: #131313;
+}
+.dark_bg #service .service_item{
+    background: #131313;
+}
+.dark_bg #service .service_item:before{
+    border-right: 15px solid #738dfa;
+    border-bottom: 15px solid #738dfa;
+}
+.dark_bg #service .service_item i{
+    border: 2px dotted #738dfa;
+}
+.dark_bg #service .service_item:hover i{
+    color: #738dfa;
+}
+.dark_bg #service .service_item h3:before{
+    border-top: 2px dotted #738dfa;
+}
+.dark_bg #service .service_item h3:after{
+    background: #738dfa;
+}
+/*------------------------------
+portfolio part start
+-------------------------------*/
+.dark_bg #portfolio{
+    background: #131313;
+}
+.dark_bg #portfolio .shape svg{
+    fill: #181818;
+}
+.dark_bg #portfolio .holder{
+    background: #181818;
+}
+.dark_bg #portfolio .menu ul li:hover{
+    color: #738dfa;
+}
+.dark_bg #portfolio .menu ul li.active{
+    color: #738dfa;
+}
+.dark_bg #portfolio .items .item_overlay{
+    background: rgba(115, 141, 250, 0.6);
+}
+.dark_bg #portfolio .items .item_overlay .icon i{
+    color: #738dfa;
+}
+.dark_bg #portfolio .items .item_overlay .text h4{
+    color: #738dfa;
+}
+.dark_bg #portfolio .load a{
+    background: #738dfa;
+    border: 1px solid #738dfa;
+}
+.dark_bg #portfolio .load a:hover{
+    background: none;
+    color: #738dfa;
+}
+/*------------------------------
+resume part start
+-------------------------------*/
+.dark_bg #resume{
+    background: #181818;
+}
+.dark_bg #resume .shape svg{
+    fill: #131313;
+}
+.dark_bg #resume .holder{
+    background: #131313;
+}
+.dark_bg #resume .resume_main .content{
+    background: #131313;
+}
+.dark_bg #resume .resume_main .content:before{
+    background: #738dfa;
+    border: 5px solid #131313;
+}
+.dark_bg #resume .resume_main .date{
+    background: #738dfa;
+    color: #fff;
+}
+.dark_bg #resume .resume_main .date:after{
+    background: #738dfa;
+}
+.dark_bg #resume .resume_main h3{
+    color: #738dfa;
+}
+.dark_bg #resume .resume_main .resume_slider:after{
+    background: #131313;
+}
+.dark_bg #resume .upbtn{
+    color: #738dfa;
+    border: 1px solid #738dfa;
+}
+.dark_bg #resume .downbtn{
+    color: #738dfa;
+    border: 1px solid #738dfa;
+}
+.dark_bg #resume .upbtn:hover,
+.dark_bg #resume .downbtn:hover{
+    background: #738dfa;
+    color: #fff;
+}
+/*------------------------------
+fun part start
+-------------------------------*/
+.dark_bg #fun{
+    background: #131313;
+}
+.dark_bg #fun .shape svg{
+    fill: #181818;
+}
+.dark_bg #fun .holder{
+    background: #181818;
+}
+.dark_bg #fun .fun_item{
+    background: #181818;
+    border: 3px solid #181818;
+}
+.dark_bg #fun .fun_item p{
+    color: #738dfa;
+    background: #131313;
+}
+/*------------------------------
+testimonial part start
+-------------------------------*/
+.dark_bg #testimonial{
+    background: #181818;
+}
+.dark_bg #testimonial .shape svg{
+    fill: #131313;
+}
+.dark_bg #testimonial .holder{
+    background: #131313;
+}
+.dark_bg #testimonial .testimonial_slide .client{
+    background: #131313;
+}
+.dark_bg #testimonial .testimonial_slide .client .client_img img{
+    border: 3px dotted #738dfa;
+}
+.dark_bg #testimonial .testimonial_slide .client .client_name span{
+    color: #738dfa;
+}
+.dark_bg #testimonial .testimonial_slide .slick-dots li button{
+    background: #738dfa;
+}
+/*------------------------------
+blog part start
+-------------------------------*/
+.dark_bg #blog{
+    background: #131313;
+}
+.dark_bg #blog .shape svg{
+    fill: #181818;
+}
+.dark_bg #blog .holder{
+    background: #181818;
+}
+.dark_bg #blog .post .blog_img span{
+    color: #738dfa;
+    background: #181818;
+}
+.dark_bg #blog .post .blog_detail{
+    background: #181818;
+}
+.dark_bg #blog .post .blog_detail h3:hover{
+    color: #738dfa;
+}
+.dark_bg #blog .post .blog_detail a:hover{
+    color: #738dfa;
+}
+/*------------------------------
+contact part start
+-------------------------------*/
+.dark_bg #contact{
+    background: #181818;
+}
+.dark_bg #contact .shape svg{
+    fill: #131313;
+}
+.dark_bg #contact .holder{
+    background: #131313;
+}
+.dark_bg #contact .contact_box{
+    background: #131313;
+}
+.dark_bg #contact .contact_box i{
+    color: #738dfa;
+    background: #f8f8f8;
+    border: 1px solid #9b9a9c;
+}
+.dark_bg #contact .contact_box .number_box{
+    background: #bfbfbf;
+    border: 3px dotted #9b9a9c;
+}
+.dark_bg #contact .contact_box .number_box span{
+    color: #9b9a9c;
+}
+.dark_bg #contact .text_box .input_field{
+    color: #fff;
+    border: 1px solid #9b9a9c;
+}
+.dark_bg #contact .text_box .send_btn{
+    background: #738dfa;
+    border: 1px solid #738dfa;
+}
+.dark_bg #contact .text_box .send_btn:hover{
+    background: none;
+    color: #738dfa;
+}
+/*------------------------------
+footer part start
+-------------------------------*/
+.dark_bg footer{
+    background: #131313;
+}
+.dark_bg footer a.brand span{
+    color: #738dfa;
+}
+.dark_bg footer p a{
+    color: #738dfa;
+}
+.dark_bg footer p a:hover{
+    color: #738dfa;
+}

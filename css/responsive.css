@@ -1,0 +1,382 @@
+/*--------------large device start---------------*/
+@media(min-width: 992px) and (max-width: 1199px){
+    header #banner .banner_overlay h1{
+        font-size: 55px;
+    }
+    /*----------banner part ends-----------*/
+    #about .about_image{
+        max-width: 395px;
+    }
+    /*----------about part ends-----------*/
+    #service .service_item h3:before{
+        border-top: 1px dotted #f5865d;
+        left: -45px;
+    }
+    #service .service_item h3:after{
+        left: 20px;
+    }
+    #service .service_item.dev h3:after{
+        left: -16px;
+    }
+    #service .service_item.responsive h3:after{
+        left: -14px;
+    }
+    #service .service_item.creative h3:after{
+        left: -5px;
+    }
+    #service .service_item.brand h3:after{
+        left: -16px;
+    }
+    /*----------service part ends-----------*/
+    #resume .resume_main .content:before{
+        right: -87px;
+    }
+    #resume .resume_main .company .content:before,
+    #resume .resume_main .versity2 .content:before,
+    #resume .resume_main .webdesign .content:before{
+        left: -87px;
+    }
+    /*----------resume part ends-----------*/
+}
+/*--------------large device ends---------------*/
+/*--------------medium device start---------------*/
+@media(min-width: 768px) and (max-width: 991px){
+    header #menubar .navbar .navbar-nav .nav-item .navbar-brand {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .nav-link{
+        line-height: 60px;
+    }
+    header #menubar .navbar .navbar-collapse{
+        position: fixed;
+        left: -230px;
+        top: 0;
+        width: 30%;
+        height: 100vh;
+        z-index: 999;
+        background: #2c2a2f;
+        -webkit-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+        transition: all linear 0.4s;
+    }
+    .light_bg header #menubar .navbar .navbar-collapse{
+        background: #f8f8f8;
+        filter: drop-shadow(0 0 5px #bfbfbf);
+    }
+    .selenium_bg header #menubar .navbar .navbar-collapse{
+        background: linear-gradient(to right, #3C3B3F, #605C3C);
+    }
+    .dark_bg header #menubar .navbar .navbar-collapse{
+        background: #000;
+    }
+    header #menubar .navbar .navbar-collapse.show{
+        left: 0;
+    }
+    /*----------menubar part ends-----------*/
+    header #banner .banner_overlay .content{
+        margin-top: 40%;
+    }
+    header #banner .banner_overlay h1{
+        font-size: 50px;
+    }
+    header #banner .banner_overlay p{
+        font-size: 14px;
+    }
+    header #banner .banner_overlay ul li a{
+        line-height: 45px;
+    }
+    /*----------banner part ends-----------*/
+    #about .floating-text span{
+        left: 0;
+        top: 30%;
+    }
+    #about .about_image{
+        max-width: 400px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 80px;
+    }
+    /*----------about part ends-----------*/
+    #resume .resume_main .content:before{
+        right: -67px;
+    }
+    #resume .resume_main .company .content:before,
+    #resume .resume_main .versity2 .content:before,
+    #resume .resume_main .webdesign .content:before{
+        left: -67px;
+    }
+    #resume .upbtn{
+        left: 47.3%
+    }
+    #resume .downbtn{
+        left: 47.3%
+    }
+    /*----------resume part ends-----------*/
+    #contact .contact_box h4{
+        font-size: 16px;
+    }
+    /*----------contact part ends-----------*/
+}
+/*--------------medium device ends---------------*/
+/*--------------landscape small device start---------------*/
+@media(min-width: 576px) and (max-width: 767px){
+    .floating-text{
+        display: none;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .navbar-brand {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .nav-link{
+        line-height: 60px;
+    }
+    header #menubar .navbar .navbar-collapse{
+        position: fixed;
+        left: -200px;
+        top: 0;
+        width: 0%;
+        height: 100vh;
+        z-index: 999;
+        background: #2c2a2f;
+        -webkit-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+        transition: all linear 0.4s;
+    }
+    .light_bg header #menubar .navbar .navbar-collapse{
+        background: #f8f8f8;
+        filter: drop-shadow(0 0 5px #bfbfbf);
+    }
+    .selenium_bg header #menubar .navbar .navbar-collapse{
+        background: linear-gradient(to right, #3C3B3F, #605C3C);
+    }
+    .dark_bg header #menubar .navbar .navbar-collapse{
+        background: #000;
+    }
+    header #menubar .navbar .navbar-collapse.show{
+        left: 0;
+        width: 40%;
+    }
+    /*----------menubar part ends-----------*/
+    header #banner .banner_overlay .content{
+        margin-top: 40%;
+    }
+    header #banner .banner_overlay h1{
+        font-size: 50px;
+    }
+    header #banner .banner_overlay p{
+        font-size: 14px;
+    }
+    header #banner .banner_overlay ul li a{
+        line-height: 45px;
+    }
+    /*----------banner part ends-----------*/
+    #about .about_image{
+        max-width: 450px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 80px;
+    }
+    /*----------about part ends-----------*/
+    #portfolio .menu ul li{
+        padding: 0 10px;
+    }
+    /*----------portfolio part ends-----------*/
+    #resume .resume_main .content{
+        margin: 15px 0;
+    }
+    #resume .resume_main .content:before{
+        right: -67px;
+    }
+    #resume .resume_main .date:after{
+        display: none;
+    }
+    #resume .resume_main .resume_slider:after{
+        display: none;
+    }
+    #resume .resume_main .company .content:before,
+    #resume .resume_main .versity2 .content:before,
+    #resume .resume_main .webdesign .content:before{
+        left: -67px;
+    }
+    #resume .upbtn{
+        left: 47.3%
+    }
+    #resume .downbtn{
+        left: 47.3%
+    }
+    /*----------resume part ends-----------*/
+    #contact .contact_box{
+        margin: 6px 0;
+    }
+    #contact .contact_box h4{
+        font-size: 16px;
+    }
+    #contact .text_box .send_btn{
+        line-height: 40px;
+    }
+    /*----------contact part ends-----------*/
+}
+/*--------------landscape small device ends---------------*/
+/*--------------small device start---------------*/
+@media(min-width: 320px) and (max-width: 575px){
+    .floating-text{
+        display: none;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .nav-link:after {
+        display: none;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .navbar-brand {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    header #menubar .navbar .navbar-nav .nav-item .nav-link{
+        line-height: 60px;
+    }
+    header #menubar .navbar .navbar-collapse{
+        position: fixed;
+        left: -200px;
+        top: 0;
+        width: 60%;
+        height: 100vh;
+        z-index: 999;
+        background: #2c2a2f;
+        -webkit-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+        transition: all linear 0.4s;
+    }
+    .light_bg header #menubar .navbar .navbar-collapse{
+        background: #f8f8f8;
+        filter: drop-shadow(0 0 5px #bfbfbf);
+    }
+    .selenium_bg header #menubar .navbar .navbar-collapse{
+        background: linear-gradient(to right, #3C3B3F, #605C3C);
+    }
+    .dark_bg header #menubar .navbar .navbar-collapse{
+        background: #000;
+    }
+    header #menubar .navbar .navbar-collapse.show{
+        left: 0;
+    }
+    /*----------menubar part ends-----------*/
+    header #banner .banner_overlay .content{
+        margin-top: 90%;
+    }
+    header #banner .banner_overlay ul.tlt span{
+        font-size: 24px;
+    }
+    header #banner .banner_overlay h1{
+        font-size: 30px;
+    }
+    header #banner .banner_overlay p{
+        font-size: 12px;
+    }
+    header #banner .banner_overlay ul li a{
+        line-height: 40px;
+        width: 110px;
+    }
+    /*----------banner part ends-----------*/
+    #about .about_image{
+        max-width: 224px;
+        margin-bottom: 80px;
+    }
+    #about h3{
+        font-size: 16px;
+    }
+    #about h3:after{
+        top: 130px;
+    }
+    #about a{
+        line-height: 40px;
+    }
+    /*----------about part ends-----------*/
+    #service .service_item h3::before{
+        left: -48px;
+    }
+    #service .service_item.dev h3:before{
+        width: -17px;
+    }
+    #service .service_item.responsive h3:after{
+        left: -17px;
+    }
+    #service .service_item.creative h3:after{
+        left: -11px;
+    }
+    #service .service_item.brand h3:after{
+        left: -18px;
+    }
+    #service .service_item h3:after{
+        left: 14px;
+    }
+    /*----------service part ends-----------*/
+    #portfolio h2:before{
+        width: 45px;
+    }
+    #portfolio h2:after{
+        left: 253px;
+    }
+    #portfolio .digit{
+        left: 280px;
+    }
+    #portfolio .menu ul li{
+        display: block;
+    }
+    /*----------portfolio part ends-----------*/
+    #resume .resume_main .content{
+        margin: 15px 0;
+    }
+    #resume .resume_main .content:before{
+        right: -67px;
+    }
+    #resume .resume_main .date:after{
+        display: none;
+    }
+    #resume .resume_main .resume_slider:after{
+        display: none;
+    }
+    #resume .resume_main .company .content:before,
+    #resume .resume_main .versity2 .content:before,
+    #resume .resume_main .webdesign .content:before{
+        left: -67px;
+    }
+    #resume .upbtn{
+        left: 47.3%
+    }
+    #resume .downbtn{
+        left: 47.3%
+    }
+    /*----------resume part ends-----------*/
+    #testimonial h2:before{
+        width: 20px;
+    }
+    #testimonial h2:after{
+        left: 245px;
+    }
+    #testimonial .digit{
+        left: 278px;
+    }
+    /*----------resume part ends-----------*/
+    #contact .contact_box{
+        margin: 6px 0;
+    }
+    #contact .contact_box h4{
+        font-size: 16px;
+    }
+    #contact .text_box .send_btn{
+        line-height: 40px;
+    }
+    /*----------contact part ends-----------*/
+}
+/*--------------small device ends---------------*/
