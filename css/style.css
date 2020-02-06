@@ -892,11 +892,12 @@ service part start
 #service .service_item.creative h3:after{
     left: 37px;
 }
-#service .service_item.brand h3:before{
+#service .service_item.frontend h3:before{
     width: 30px;
+    left: -28px;
 }
-#service .service_item.brand h3:after{
-    left: 27px;
+#service .service_item.frontend h3:after{
+    left: 3px;
 }
 #service .service_item h3:after{
     content: '';
